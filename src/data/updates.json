@@ -1,0 +1,59 @@
+{
+  "kpis": [
+    { "label": "Launches", "value": 13 },
+    { "label": "In Flight", "value": 11 },
+    { "label": "Watch Items", "value": 7 },
+    { "label": "Organizations", "value": 6 }
+  ],
+  "organizations": [
+    "Business Process Re-Engineering",
+    "IT",
+    "Procurement",
+    "Security",
+    "Supply Chain",
+    "Test Engineering"
+  ],
+  "columns": {
+    "launches": [
+      { "title": "Fusion → uCPQ Integration", "org": "IT", "description": "Enterprise integration launched to streamline quote generation and improve configuration accuracy." },
+      { "title": "Automated Deal Economics", "org": "Business Process Re-Engineering", "description": "Automated economic modeling deployed to reduce manual calculations and speed approvals." },
+      { "title": "Keystone Pricing Process", "org": "Procurement", "description": "Pricing process modernized with standardized controls and governance checkpoints." },
+      { "title": "KAT Retirement", "org": "IT", "description": "Legacy KAT platform retired, reducing support overhead and technical debt." },
+      { "title": "PIM Phase 2", "org": "IT", "description": "Second phase completed with improved product data quality and broader catalog governance." },
+      { "title": "Zscaler Rollout", "org": "Security", "description": "Network security posture strengthened with expanded secure access rollout." },
+      { "title": "Hardware Asset Management Complete", "org": "Supply Chain", "description": "Asset lifecycle tracking finalized for improved planning and compliance." },
+      { "title": "Laredo DC Go Live", "org": "IT", "description": "Data center activation completed with stable cutover and monitored performance." },
+      { "title": "Sandisk LTA Signed", "org": "Procurement", "description": "Long-term agreement secured to stabilize supply and pricing predictability." },
+      { "title": "Cursor Purchase", "org": "Business Process Re-Engineering", "description": "Tooling investment completed to accelerate documentation and development workflows." },
+      { "title": "AI RFX Module", "org": "Business Process Re-Engineering", "description": "AI-enabled RFX capabilities launched to improve response speed and consistency." },
+      { "title": "AI Cyber Governance", "org": "Security", "description": "Governance framework established for responsible AI cyber use and risk controls." },
+      { "title": "CyberArk SaaS Sandbox", "org": "Security", "description": "Sandbox environment launched for privileged access validation and migration readiness." }
+    ],
+    "inFlight": [
+      { "title": "UCPQ June Release", "org": "IT", "description": "Release in progress with targeted feature enhancements and stability improvements." },
+      { "title": "Data Center Consolidation", "org": "IT", "description": "Consolidation activities underway to optimize infrastructure footprint and resiliency." },
+      { "title": "Keystone Operational Scaling", "org": "Business Process Re-Engineering", "description": "Operational model scaling to support increased transaction volume and faster turnaround." },
+      { "title": "Dayforce Replan", "org": "IT", "description": "Program re-planning underway to align milestones, dependencies, and resource capacity." },
+      { "title": "Intel Supply Mitigation", "org": "Supply Chain", "description": "Risk mitigation plan active to reduce impact from constrained Intel allocations." },
+      { "title": "NVIDIA Supply Mitigation", "org": "Supply Chain", "description": "Cross-functional actions in flight to protect critical GPU availability." },
+      { "title": "QLC Qualification", "org": "Test Engineering", "description": "Qualification testing ongoing to validate quality and readiness for production usage." },
+      { "title": "CyberArk Production Deployment", "org": "Security", "description": "Production deployment in progress with phased onboarding and controls verification." },
+      { "title": "AI Cyber Presentation", "org": "Security", "description": "Executive and governance presentation development in progress for AI cyber strategy." },
+      { "title": "AFX-2K Production Readiness", "org": "Test Engineering", "description": "Final readiness checks underway for production launch and operational support." },
+      { "title": "Guadalupe DC Move", "org": "IT", "description": "Migration planning and execution underway for data center relocation milestones." }
+    ],
+    "watchList": [
+      { "title": "Memory Cost Pressure", "org": "Procurement", "description": "Price pressure monitored due to sustained demand and constrained market conditions." },
+      { "title": "HDD Cost Increases", "org": "Procurement", "description": "Rising HDD costs tracked with active supplier and forecast management." },
+      { "title": "Intel Allocation Risk", "org": "Supply Chain", "description": "Allocation risk monitored with contingency planning for critical programs." },
+      { "title": "NVIDIA CX7 Exposure", "org": "Supply Chain", "description": "Exposure reviewed with mitigation paths for continuity and performance goals." },
+      { "title": "PSU Failures", "org": "Test Engineering", "description": "Failure trend under investigation with corrective actions and reliability tracking." },
+      { "title": "MOSFET Shortage", "org": "Supply Chain", "description": "Shortage risk monitored with alternate sourcing and prioritization plans." },
+      { "title": "Laredo Full Cutover", "org": "IT", "description": "Final cutover risk monitored to ensure continuity and operational stability." }
+    ]
+  },
+  "timeline": {
+    "May": ["Fusion Live", "PIM", "Zscaler Expansion", "Oracle Integration"],
+    "June": ["Automated Deal Economics", "Laredo Go Live", "Sandisk LTA", "CyberArk", "Data Center Consolidation"]
+  }
+}
